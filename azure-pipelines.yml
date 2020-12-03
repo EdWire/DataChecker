@@ -34,7 +34,7 @@ steps:
     command: publish
     publishWebProjects: False
     projects: '$(solution)'
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(solution)'
+    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)/DataChecker'
     zipAfterPublish: True
 # Publish pipeline artifacts
 
